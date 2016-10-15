@@ -1,0 +1,28 @@
+{
+  "name": "nativescript-resource-generator",
+  "version": "0.0.2",
+  "description": "Small script that generates multi-resolution images for nativescript folder",
+  "main": "lib/index.js",
+  "preferGlobal": true,
+  "bin": {
+    "ns-convert": "bin/ns-convert.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ottojimb/nativescript-resource-generator.git"
+  },
+  "keywords": [
+    "nativescript",
+    "resource",
+    "generator"
+  ],
+  "author": "Otto Jiménez",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ottojimb/nativescript-resource-generator/issues"
+  },
+  "homepage": "https://github.com/ottojimb/nativescript-resource-generator#readme"
+}

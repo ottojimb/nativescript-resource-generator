@@ -1,6 +1,7 @@
 # Nativescript resource generator
 
-Small script that generates multi-resolution images for nativescript folder
+Small script that generates multi-resolution images for nativescript folder.
+It transforms the ".jpg, .gif, .png" format files.
 
 # Installation
 
@@ -13,9 +14,17 @@ Small script that generates multi-resolution images for nativescript folder
 
 > `git clone https://github.com/ottojimb/nativescript-resource-generator.git`
 
+4. Access to the create folder
+
+> `cd nativescript-resource-generator`
+
+5. Install as global package
+
+> `npm -g install .`
+
 # Usage
 
-> `node path/to/nativescript-resource-generator/lib/index.js path/to/assets_gallery path/to/nativescript/App_Resources` 
+> `ns-convert path/to/assets_gallery path/to/nativescript/App_Resources` 
 
 # Contributing
 
@@ -27,6 +36,12 @@ Small script that generates multi-resolution images for nativescript folder
 
 # History
 
+## v0.0.2:
+
+* Created global package definition
+* Fix bug when the animated gif returns multiple sizes (one for each frame)
+* Better documentation 
+
 ## v0.0.1: 
 
 * First release 
@@ -34,7 +49,6 @@ Small script that generates multi-resolution images for nativescript folder
 # TODO
 
 * Clean code (it was a quickly implementation)
-* Create a global npm
 * Verify it on windows
 
 ## License
